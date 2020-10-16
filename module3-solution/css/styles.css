@@ -1,11 +1,12 @@
 body {
     font-size: 16px;
     color: #000;
+    background-color: #d4d0f7;
     font-family: helvetica, sans-serif;
 }
 
 #header-nav {
-    background-color: #07806b;
+    background-color: #84eedc;
     border-radius: 0;
     border: 2px solid #000;
 }
@@ -52,22 +53,35 @@ body {
     margin-top: 20px;
 }
 
-h1, h2, h3{
-  font-weight: bold;
-}
-
-#page-title{
+#page-heading{
     margin: auto auto 20px auto;
+    font-weight: bold;
 }
 
 #menu-item-content {
     width: 98%;
     margin: auto;
+}
+
+#menu-item-content section {
     margin-bottom: 20px;
-    background: #07806b;
+    padding: 0px 30px 30px 30px;
+    background: #b9c9d8;
     border: 1px solid black;
 }
 
+#menu-item-content h3 {
+    color: #05021b;
+    font-weight: bold;
+}
+
+#menu-item-content a {
+    color: #1900ff;
+}
+
+#menu-item-content p {
+    text-align: justify;
+}
 
 @media (max-width: 767px) {
   
